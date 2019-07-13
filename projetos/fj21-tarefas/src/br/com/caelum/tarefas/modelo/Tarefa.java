@@ -2,10 +2,17 @@ package br.com.caelum.tarefas.modelo;
 
 import java.util.Calendar;
 
+import javax.validation.constraints.Size;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
 public class Tarefa {
 	private Long id;
+	
+	@Size(min=5, max=140, message="O texto deve ter entre 5 e 140 caracteres")
 	private String descricao;
 	private boolean finalizado;
+	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private Calendar dataFinalizacao;
 
 	public Long getId() {
