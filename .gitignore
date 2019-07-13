@@ -9,3 +9,5 @@
 **/Servers/
 
 >>>>>>> f2d7193171ff97ffa634425848817c01fe40b26a
+.idea/
+*.iml
