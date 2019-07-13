@@ -24,7 +24,7 @@
 				<th>Endereço</th>
 				<th>Nascimento</th>
 			</tr>
-		<c:forEach var="contato" items="${dao.lista}" varStatus="id">
+		<c:forEach var="contato" items="${contatos}" varStatus="id">
 			<tr bgcolor="#${id.count % 2 == 0 ? 'C0C0C0' : 'ffffff' }" >
 				<td>${contato.nome}</td>
 				<td>
