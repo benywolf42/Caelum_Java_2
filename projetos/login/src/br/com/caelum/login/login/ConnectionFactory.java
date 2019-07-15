@@ -1,4 +1,4 @@
-package br.com.caelum.agenda;
+package br.com.caelum.login.login;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -14,7 +14,7 @@ public class ConnectionFactory {
 		} catch (ClassNotFoundException e) {
 			throw new SQLException(e);
 		}
-		
+
 		return DriverManager.getConnection("jdbc:mysql://localhost/fj21",
 				"root", "123456");
 	}
