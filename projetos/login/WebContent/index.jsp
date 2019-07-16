@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,6 +18,13 @@
 		color: #fff;
 	}
 	
+	.exemplo{
+			height: 80vh; 
+		  display: flex; 
+		  align-items: center; 
+		  justify-content: center;
+	}
+	
 </style>
 <meta charset="ISO-8859-1">
 <title>Index</title>
@@ -24,7 +32,7 @@
 <body>
 <%@ include file="header.html" %>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-	<div class="row d-flex align-items-center justify-content-center">
+	<div class="row d-flex justify-content-center exemplo">
 		<aside class="col-sm-4">
 			<div class="card">
 				<article class="card-body">
